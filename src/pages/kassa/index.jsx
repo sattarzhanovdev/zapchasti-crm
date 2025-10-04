@@ -219,7 +219,7 @@ const Kassa = () => {
         style={{ width: '100%', padding: 12, fontSize: 16, marginBottom: 20 }}
         onChange={e => {
           const raw = e.target.value.trim()
-          if (raw.length < 8) return // короткий код — не ищем
+          if (raw.length < 3) return // короткий код — не ищем
 
           // Задержка, чтобы дождаться полного ввода от сканера
           setTimeout(() => {
