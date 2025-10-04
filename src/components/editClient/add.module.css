@@ -1,0 +1,317 @@
+.add {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 755px;
+  background: white;
+  padding: 0 36px;
+  padding-top: 52px;
+  overflow-x: scroll;
+}
+.add .client {
+  width: 90%;
+  border-bottom: 1px solid #BFBFC5;
+  padding: 32px 0;
+}
+.add .client h2 {
+  color: #334155;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.add .client form {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.add .client form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add .client form div p {
+  text-wrap: nowrap;
+}
+.add .client form div span {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 129.412% */
+  color: #232323;
+}
+.add .client form div input {
+  width: 400px;
+  height: 44px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(142, 142, 147, 0.2);
+  background: #FFF;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 24px 0px rgba(204, 204, 204, 0.08);
+  outline: none;
+}
+.add .client form div input:focus {
+  border: 1px solid #216EFD;
+}
+.add .client form label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+}
+.add .client form label input {
+  width: 24px;
+  height: 24px;
+}
+.add .client form label .times {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.add .client form label .times p {
+  text-wrap: nowrap;
+}
+.add .client form label .times span {
+  padding: 8px 12px;
+  border: 1px solid #4AC137;
+  border-radius: 50px;
+  color: #4AC137;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.add .client form label .times span.adding {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #8E8E93;
+  color: #8E8E93;
+  cursor: pointer;
+}
+.add .client button {
+  font-size: 15px;
+  color: #216EFD;
+  border-radius: 50px;
+  border: 1px solid #216EFD;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: none;
+  margin-top: 20px;
+}
+.add .servicesAdd {
+  width: 90%;
+  border-bottom: 1px solid #BFBFC5;
+  padding: 32px 0;
+}
+.add .servicesAdd h2 {
+  color: #334155;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.add .servicesAdd form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.add .servicesAdd form .values {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.add .servicesAdd form .valuesNew .valuesIn {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.add .servicesAdd form .services h3 {
+  margin: 0;
+}
+.add .servicesAdd form .services input {
+  box-shadow: none;
+}
+.add .servicesAdd form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add .servicesAdd form div p {
+  text-wrap: nowrap;
+}
+.add .servicesAdd form div span {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 129.412% */
+  color: #232323;
+}
+.add .servicesAdd form div input,
+.add .servicesAdd form div select {
+  width: 400px;
+  height: 44px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(142, 142, 147, 0.2);
+  background: #FFF;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 24px 0px rgba(204, 204, 204, 0.08);
+  outline: none;
+}
+.add .servicesAdd form div input:focus,
+.add .servicesAdd form div select:focus {
+  border: 1px solid #216EFD;
+}
+.add .servicesAdd form label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+}
+.add .servicesAdd form label input {
+  width: 24px;
+  height: 24px;
+}
+.add .servicesAdd form label .times {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.add .servicesAdd form label .times p {
+  text-wrap: nowrap;
+}
+.add .servicesAdd form label .times span {
+  padding: 8px 12px;
+  border: 1px solid #4AC137;
+  border-radius: 50px;
+  color: #4AC137;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.add .servicesAdd form label .times span.medium {
+  color: #EDBB00;
+  border: 1px solid #EDBB00;
+}
+.add .servicesAdd form label .times span.hard {
+  color: #F00;
+  border: 1px solid #F00;
+}
+.add .servicesAdd form label .times span.adding {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #8E8E93;
+  color: #8E8E93;
+  cursor: pointer;
+}
+.add .servicesAdd button {
+  font-size: 15px;
+  color: #216EFD;
+  border-radius: 50px;
+  border: 1px solid #216EFD;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: none;
+  margin-top: 20px;
+}
+.add .services h3 {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.add .res {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px -4px 34px 0px rgba(204, 204, 204, 0.16);
+  background: white;
+  padding-left: 32px;
+  border-radius: 25px 25px 0px 0px;
+}
+.add .res .left {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.add .res .left h1 {
+  margin: 0;
+}
+.add .res .left form {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin: 0;
+}
+.add .res .left form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.add .res .left form div input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+}
+.add .res .left form div label {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 129.412% */
+}
+.add .res .left .line {
+  width: 3px;
+  height: 30px;
+  background: #216EFD;
+}
+.add .res .right {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.add .res .right button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  background: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 133.333% */
+}
+.add .res .right button:nth-child(1) {
+  border: 1px solid #216EFD;
+  color: #216EFD;
+}
+.add .res .right button:nth-child(2) {
+  border: 1px solid #4AC137;
+  color: #4AC137;
+}/*# sourceMappingURL=add.module.css.map */

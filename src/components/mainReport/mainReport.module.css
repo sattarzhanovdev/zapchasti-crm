@@ -1,0 +1,183 @@
+.wrap {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 24px 18px;
+  font-family: Inter, system-ui, sans-serif;
+  color: #111;
+}
+
+.periodRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border: 1px solid #E5E7EB;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #F4F6FB;
+}
+
+.pillActive {
+  background: #216EFD;
+  color: #fff;
+  border-color: #216EFD;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.card {
+  background: #F8FAFF;
+  border: 1px solid #EEF2FF;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.cardTall {
+  background: #fff;
+  border: 1px solid #EEF2FF;
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 260px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.h3 {
+  margin: 0;
+}
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.sub {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.splitBox {
+  margin-top: 12px;
+}
+
+.splitRow {
+  margin-bottom: 16px;
+}
+
+.splitTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.bar {
+  height: 10px;
+  background: #EEF2FF;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: #216EFD;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 8px;
+}
+
+.table thead th {
+  text-align: left;
+  font-size: 12px;
+  color: #6b7280;
+  padding: 10px 12px;
+  border-bottom: 1px solid #EEF2FF;
+}
+
+.table tbody td {
+  font-size: 14px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.empty {
+  text-align: center;
+  opacity: 0.6;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  padding: 0 12px 8px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.dotBlue {
+  background: #216EFD;
+}
+
+.dotRed {
+  background: #ef4444;
+}
+
+@media (max-width: 1024px) {
+  .kpis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .twoCol {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=mainReport.module.css.map */

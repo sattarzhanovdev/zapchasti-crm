@@ -7,7 +7,7 @@ import BarcodeScanner from './pages/code'
 import { API } from './api'
 import { useNavigate } from 'react-router-dom'
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000/clients'
+axios.defaults.baseURL = 'https://zapchasticrm.pythonanywhere.com/clients'
 // axios.defaults.baseURL = 'http://127.0.0.1:8000/clients'
 
 function App() {

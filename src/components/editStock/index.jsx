@@ -18,7 +18,7 @@ const EditStock = ({ setActive, selectedBranch }) => {
 
   const [cats, setCats] = useState([])
 
-  const branchAPI = 'http://127.0.0.1:8000/'
+  const branchAPI = 'https://zapchasticrm.pythonanywhere.com/'
 
   // Генератор EAN-13 штрихкода
   const getRandomBarcode = () => {

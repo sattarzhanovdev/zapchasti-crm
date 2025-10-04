@@ -1,0 +1,219 @@
+@charset "UTF-8";
+.workers {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 19px;
+  margin: 40px;
+  border-radius: 16px;
+}
+.workers .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.workers .title .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.workers .title .left button {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #216EFD;
+  background: #216EFD;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .left .search {
+  position: relative;
+}
+.workers .title .left .search img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.workers .title .left .search input {
+  width: 340px;
+  padding: 8px 36px;
+  border-radius: 7px;
+  border: 1.5px solid #BFBFC5;
+  font-size: 17px;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .right {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.workers .title .right .date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+}
+.workers .title .right .date span {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #216EFD;
+  background: #216EFD;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .right .date select {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #A4A4A8;
+  background: none;
+  color: #A4A4A8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .right .line {
+  width: 2px;
+  height: 28px;
+  background: #A4A4A8;
+}
+.workers .title .right .periods {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.workers .title .right .periods button {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #A4A4A8;
+  background: none;
+  color: #A4A4A8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .right .periods button.active {
+  border: 1.5px solid #216EFD;
+  color: #216EFD;
+}
+.workers .table {
+  width: 100%;
+}
+.workers .table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.workers .table table thead tr th {
+  padding: 15px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #A4A4A8;
+}
+.workers .table table thead tr th:first-child {
+  padding-left: 0;
+}
+.workers .table table thead tr th:first-child, .workers .table table thead tr th:nth-child(2) {
+  text-align: left;
+  padding-left: 20px;
+}
+.workers .table table thead tr th.services {
+  width: 350px;
+}
+.workers .table table tbody tr {
+  background: white;
+  border-bottom: 1px solid rgba(191, 191, 197, 0.5);
+}
+.workers .table table tbody tr td {
+  padding: 15px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #000000;
+}
+.workers .table table tbody tr td:first-child {
+  width: 40px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 8px 0 0 8px;
+  padding-left: 10px;
+}
+.workers .table table tbody tr td:last-child {
+  border-radius: 0 8px 8px 0;
+}
+.workers .table table tbody tr td:nth-child(2) {
+  text-align: left;
+  padding-left: 20px;
+}
+.workers .table table tbody tr td.services {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 5px; /* Отступ между элементами */
+  max-width: 100%; /* Или другой размер, ограничивающий ширину */
+}
+.workers .table table tbody tr td.services div {
+  white-space: nowrap;
+}
+.workers .table table tbody tr td .date {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  background: #216EFD;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.workers .table table tbody tr td .service {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  background: #4AC137;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.workers .table table tbody tr td .worker {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  background: #EDBB00;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 8px;
+}/*# sourceMappingURL=workers.module.css.map */

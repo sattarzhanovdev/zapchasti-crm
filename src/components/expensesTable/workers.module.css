@@ -1,0 +1,176 @@
+.workers {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 19px;
+  margin: 40px;
+  border-radius: 16px;
+}
+.workers button {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #216EFD;
+  background: #216EFD;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.workers .title h1 {
+  margin: 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+.workers .title .left {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.workers .title .left .date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+}
+.workers .title .left .date span {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #216EFD;
+  background: #216EFD;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .left .date button {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #A4A4A8;
+  background: none;
+  color: #A4A4A8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .left .line {
+  width: 2px;
+  height: 28px;
+  background: #A4A4A8;
+}
+.workers .title .left .periods {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.workers .title .left .periods button {
+  padding: 6px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #A4A4A8;
+  background: none;
+  color: #A4A4A8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .title .left .periods button.active {
+  border: 1.5px solid #216EFD;
+  color: #216EFD;
+}
+.workers .table {
+  width: 900px;
+}
+.workers .table table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+.workers .table table thead tr th {
+  padding: 15px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #A4A4A8;
+}
+.workers .table table thead tr th:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+.workers .table table thead tr th:nth-child(2) {
+  text-align: left;
+  padding-left: 20px;
+}
+.workers .table table thead tr th button {
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #216EFD;
+  background: #216EFD;
+  color: white;
+  position: absolute;
+  right: -150px;
+  top: 6px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+}
+.workers .table table tbody tr {
+  background: white;
+  border-bottom: 1px solid rgba(191, 191, 197, 0.5);
+}
+.workers .table table tbody tr td {
+  padding: 15px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #000000;
+}
+.workers .table table tbody tr td:first-child {
+  width: 160px;
+  text-align: left;
+  padding-left: 20px;
+  border-radius: 8px 0 0 8px;
+}
+.workers .table table tbody tr td:last-child {
+  border-radius: 0 8px 8px 0;
+}
+.workers .table table tbody tr td:nth-child(2) {
+  text-align: left;
+  padding-left: 20px;
+}
+.workers .table table tbody tr td .date {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 8px;
+  color: white;
+  background: #216EFD;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 105.882% */
+  letter-spacing: -0.17px;
+  border-radius: 4px;
+}/*# sourceMappingURL=workers.module.css.map */

@@ -17,7 +17,7 @@ const AddStock = ({ setActive, selectedBranch }) => {
   const [rows, setRows] = React.useState([emptyRow])
   const [categories, setCategories] = React.useState([])
 
-  const branchAPI = 'http://127.0.0.1:8000/'
+  const branchAPI = 'https://zapchasticrm.pythonanywhere.com'
 
   const handleChange = (index, field, value) => {
     setRows(prev =>

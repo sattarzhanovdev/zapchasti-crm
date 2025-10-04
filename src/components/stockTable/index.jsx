@@ -7,7 +7,7 @@ import Barcode from 'react-barcode';
 import jsPDF from 'jspdf';
 import Roboto_normal from './Roboto.ttf'
 
-const STOCK_API = 'http://127.0.0.1:8000';
+const STOCK_API = 'https://zapchasticrm.pythonanywhere.com';
 
 const StockTable = () => {
   const [month, setMonth] = React.useState('');
