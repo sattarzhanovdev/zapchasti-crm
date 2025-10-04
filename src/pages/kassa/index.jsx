@@ -224,7 +224,7 @@ const Kassa = () => {
           // Задержка, чтобы дождаться полного ввода от сканера
           setTimeout(() => {
             const code = e.target.value.trim()
-            if (!code || code.length < 8) return
+            if (!code || code.length < 3) return
 
             const matches = goods.filter(g => g.code_array.includes(code))
             if (matches.length === 0) {
